@@ -1,0 +1,2 @@
+# Checkers
+Multiplayer game

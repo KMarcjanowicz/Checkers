@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+h1, h2{
+    color: greenyellow;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    color: greenyellow;
+    font-size: 1.5em;
+}
+select{
+    color: blue;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 100px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+canvas{
+    z-index: 1;
+}
+#status-div{
+    z-index: 3;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid greenyellow;
+    background-color: rgba(9, 70, 9, 0.589);
+}
+#login-div{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid greenyellow;
+    background-color: rgba(9, 70, 9, 0.589);
+    margin: 0 auto;
+    margin-top: 100px;
+    color: greenyellow;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
